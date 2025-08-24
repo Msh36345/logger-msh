@@ -7,20 +7,6 @@ This library makes it easy to configure logging with simple boolean switches for
 
 ---
 
-## 🚀 Installation
-
-```bash
-pip install logger-msh
-```
-
-Or install locally in editable mode:
-
-```bash
-pip install -e .
-```
-
----
-
 ## 🛠 Usage
 
 ```python
