@@ -1,0 +1,74 @@
+
+
+# logger-msh
+
+A custom logger library built on top of [Loguru](https://github.com/Delgan/loguru).  
+This library makes it easy to configure logging with simple boolean switches for date, line number, colorized output, and file logging.
+
+---
+
+## 🚀 Installation
+
+```bash
+pip install logger-msh
+```
+
+Or install locally in editable mode:
+
+```bash
+pip install -e .
+```
+
+---
+
+## 🛠 Usage
+
+```python
+from logger_msh import init_logger
+
+# Initialize the logger with custom options
+log = init_logger(
+    level="DEBUG",      # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+    show_date=True,     # Include timestamp
+    show_line=False,    # Include filename and line number
+    colorize=True,      # Enable colored output
+    write_to_file=False # Write logs to a file
+)
+
+# Examples
+log.debug("This is a debug message")
+log.info("This is an info message")
+log.warning("This is a warning")
+log.error("This is an error")
+log.critical("This is critical")
+```
+
+---
+
+## ⚙️ Parameters
+
+- **level** (str): Log level (`DEBUG`, `INFO`, `WARNING`, `ERROR`, `CRITICAL`).  
+- **show_date** (bool): Show timestamp in logs.  
+- **show_line** (bool): Show filename and line number.  
+- **colorize** (bool): Enable/disable colorized logs in terminal.  
+- **write_to_file** (bool): Whether to write logs to a file.  
+- **log_file_path** (str): Path to the log file (default: `app.log`).  
+
+---
+
+## 📦 Development
+
+Build the package:
+```bash
+python -m build
+```
+
+Install from GitHub:
+```bash
+pip install git+https://github.com/&lt;your-username&gt;/logger-msh.git
+```
+
+---
+
+## ✨ License
+MIT License © 2025 Moshe
