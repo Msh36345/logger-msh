@@ -58,17 +58,12 @@ log.critical("This is critical")
 
 ## 📦 Development
 
-Build the package:
-```bash
-python -m build
-```
-
 Install from GitHub:
 ```bash
-pip install git+https://github.com/&lt;your-username&gt;/logger-msh.git
+pip install git+https://github.com/msh36345/logger-msh.git
 ```
 
----
-
-## ✨ License
-MIT License © 2025 Moshe
+Add to requirements.txt:
+```
+git+https://github.com/msh36345/logger-msh.git
+```
