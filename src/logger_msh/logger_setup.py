@@ -28,9 +28,9 @@ def init_logger(
     parts = []
     if show_date:
         parts.append("<green>{time:YYYY-MM-DD HH:mm:ss}</green>")
-    parts.append("<level>{level: <8}</level>")
     if show_line:
         parts.append("<cyan>{name}</cyan>:<cyan>{line}</cyan>")
+    parts.append("<level>{level: <8}</level>")
     parts.append("<level>{message}</level>")
 
     fmt = " | ".join(parts)
