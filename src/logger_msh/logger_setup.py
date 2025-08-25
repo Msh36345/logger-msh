@@ -4,7 +4,7 @@ from loguru import logger
 import sys
 
 def init_logger(
-    level: str = "DEBUG",
+    level: str = "INFO",
     show_date: bool = True,
     show_line: bool = True,
     colorize: bool = True,
