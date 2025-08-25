@@ -1,5 +1,3 @@
-# logger_msh/logg.py
-
 from loguru import logger
 import sys
 
