@@ -11,7 +11,9 @@ This library makes it easy to configure logging with simple boolean switches for
 
 ```python
 from logger_msh import init_logger
+```
 
+```
 # Initialize the logger with custom options
 log = init_logger(
     level="DEBUG",      # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
