@@ -22,7 +22,9 @@ log = init_logger(
     colorize=True,      # Enable colored output
     write_to_file=False # Write logs to a file
 )
+```
 
+```python
 # Examples
 log.debug("This is a debug message")
 log.info("This is an info message")
